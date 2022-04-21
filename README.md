@@ -36,15 +36,7 @@ A curated list of **Multimodal Pretrained Models** and related area.
         * [ACL 2019](#ACL-2019)
         * [CVPR 2019](#CVPR-2019)
         * [AAAI 2019](#AAAI-2019)
-     * [2018](#2018)
-        * [NIPS 2018](#NIPS-2018)
-        * [ECCV 2018](#ECCV-2018)
-        * [ACL 2018](#ACL-2018)
-        * [CVPR 2018](#CVPR-2018)
-     * [2015](#2015)
-        * [ICML 2015](#ICML-2015)
-        * [CVPR 2015](#CVPR-2015)
-        * [ICLR 2015](#ICLR-2015)
+
   * [Reference and Acknowledgement](#reference-and-acknowledgement)
 ## Survey Papers
 ### 2022
