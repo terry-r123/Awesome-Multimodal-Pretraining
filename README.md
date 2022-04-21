@@ -1,15 +1,20 @@
-# Awesome Captioning:[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Multimodal Pre-training:[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
   <img width="250" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
 </p>
 
-A curated list of **VL Pretrained Models** and related area. 
+A curated list of **Multimodal Pretrained Models** and related area. 
 
 
 
 ## Table of Contents
-  * [Papers](#papers)
+  * [Survey Papers](#survey-papers)
+  * [Research Papers](#reasearch-papers)
+    * [2022](#2022)
+        - [arxiv 2022](arxiv-2022)
+        - [CVPR 2022](#CVPR-2022)
+        - [ICLR 2022](#ICLR-2022)
     * [2021](#2021)
         - [ACL 2021](#ACL-2021)
         - [IJCAI 2021](#IJCAI-2021)
@@ -246,174 +251,6 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 
   
 
-#### ICCV 2019
-##### Image Captioning
-
-- Robust Change Captioning. [[paper]](https://arxiv.org/abs/1901.02527)  
-
-- Attention on Attention for Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Attention_on_Attention_for_Image_Captioning_ICCV_2019_paper.pdf)  
-
-- Exploring Overall Contextual Information for Image Captioning in Human-Like Cognitive Style. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ge_Exploring_Overall_Contextual_Information_for_Image_Captioning_in_Human-Like_Cognitive_ICCV_2019_paper.pdf)   
-  
-- Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Datta_Align2Ground_Weakly_Supervised_Phrase_Grounding_Guided_by_Image-Caption_Alignment_ICCV_2019_paper.pdf)  
-  
-- Hierarchy Parsing for Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yao_Hierarchy_Parsing_for_Image_Captioning_ICCV_2019_paper.pdf)  
-
-- Generating Diverse and Descriptive Image Captions Using Visual Paraphrases.  [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Generating_Diverse_and_Descriptive_Image_Captions_Using_Visual_Paraphrases_ICCV_2019_paper.pdf)  
-
-- Learning to Collocate Neural Modules for Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Learning_to_Collocate_Neural_Modules_for_Image_Captioning_ICCV_2019_paper.pdf)  
-
-- Sequential Latent Spaces for Modeling the Intention During Diverse Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Aneja_Sequential_Latent_Spaces_for_Modeling_the_Intention_During_Diverse_Image_ICCV_2019_paper.pdf)   
-
-- Towards Unsupervised Image Captioning With Shared Multimodal Embeddings. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Laina_Towards_Unsupervised_Image_Captioning_With_Shared_Multimodal_Embeddings_ICCV_2019_paper.pdf)   
-
-- Human Attention in Image Captioning: Dataset and Analysis. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/He_Human_Attention_in_Image_Captioning_Dataset_and_Analysis_ICCV_2019_paper.pdf)  
-  
-- Reflective Decoding Network for Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ke_Reflective_Decoding_Network_for_Image_Captioning_ICCV_2019_paper.pdf)  
-  
-- Joint Optimization for Cooperative Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Vered_Joint_Optimization_for_Cooperative_Image_Captioning_ICCV_2019_paper.pdf)   
-  
-- Watch, Listen and Tell: Multi-Modal Weakly Supervised Dense Event Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Rahman_Watch_Listen_and_Tell_Multi-Modal_Weakly_Supervised_Dense_Event_Captioning_ICCV_2019_paper.pdf)  
-  
-- Entangled Transformer for Image Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Entangled_Transformer_for_Image_Captioning_ICCV_2019_paper.pdf)  
-  
-- nocaps: novel object captioning at scale. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Agrawal_nocaps_novel_object_captioning_at_scale_ICCV_2019_paper.pdf)  
-  
-- Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Cap2Det_Learning_to_Amplify_Weak_Caption_Supervision_for_Object_Detection_ICCV_2019_paper.pdf)  
-  
-- Unpaired Image Captioning via Scene Graph Alignments. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gu_Unpaired_Image_Captioning_via_Scene_Graph_Alignments_ICCV_2019_paper.pdf)  
-  
-- Learning to Caption Images Through a Lifetime by Asking Questions. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shen_Learning_to_Caption_Images_Through_a_Lifetime_by_Asking_Questions_ICCV_2019_paper.pdf)  
-  
-##### Video Captioning
-- VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_VaTeX_A_Large-Scale_High-Quality_Multilingual_Dataset_for_Video-and-Language_Research_ICCV_2019_paper.pdf) 
-  
-- Controllable Video Captioning With POS Sequence Guidance Based on Gated Fusion Network. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Controllable_Video_Captioning_With_POS_Sequence_Guidance_Based_on_Gated_ICCV_2019_paper.pdf)  
-  
-- Joint Syntax Representation Learning and Visual Cue Translation for Video Captioning. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hou_Joint_Syntax_Representation_Learning_and_Visual_Cue_Translation_for_Video_ICCV_2019_paper.pdf)
-
-#### ACL 2019 ####
-##### Image Captioning
-- Informative Image Captioning with External Sources of Information  [[paper]](https://www.aclweb.org/anthology/P19-1650.pdf)  
-
-- Bridging by Word: Image Grounded Vocabulary Construction for Visual Captioning  [[paper]](https://www.aclweb.org/anthology/P19-1652.pdf)  
-  
-- Generating Question Relevant Captions to Aid Visual Question Answering  [[paper]](https://www.aclweb.org/anthology/P19-1348.pdf)  
-##### Video Captioning
-- Dense Procedure Captioning in Narrated Instructional Videos  [[paper]](https://www.aclweb.org/anthology/P19-1641.pdf)  
-  
-#### CVPR 2019 ####
-##### Image Captioning
-- Auto-Encoding Scene Graphs for Image Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Auto-Encoding_Scene_Graphs_for_Image_Captioning_CVPR_2019_paper.pdf) [[code]](https://github.com/fengyang0317/unsupervised_captioning)   
-  
-- Fast, Diverse and Accurate Image Captioning Guided by Part-Of-Speech  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Deshpande_Fast_Diverse_and_Accurate_Image_Captioning_Guided_by_Part-Of-Speech_CVPR_2019_paper.pdf)   
-
-- Unsupervised Image Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Unsupervised_Image_Captioning_CVPR_2019_paper.pdf) [[code]](https://github.com/fengyang0317/unsupervised_captioning)   
-  
-- Adversarial Attack to Image Captioning via Structured Output Learning With Latent Variables  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Exact_Adversarial_Attack_to_Image_Captioning_via_Structured_Output_Learning_CVPR_2019_paper.pdf)  
-  
-- Describing like Humans: On Diversity in Image Captioning [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Describing_Like_Humans_On_Diversity_in_Image_Captioning_CVPR_2019_paper.pdf)   
-  
-- MSCap: Multi-Style Image Captioning With Unpaired Stylized Text  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_MSCap_Multi-Style_Image_Captioning_With_Unpaired_Stylized_Text_CVPR_2019_paper.pdf)   
-  
-- Leveraging Captioning to Boost Semantics for Salient Object Detection  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CapSal_Leveraging_Captioning_to_Boost_Semantics_for_Salient_Object_Detection_CVPR_2019_paper.pdf)  [[code]](https://github.com/zhangludl/code-and-dataset-for-CapSal)  
-  
-- Context and Attribute Grounded Dense Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yin_Context_and_Attribute_Grounded_Dense_Captioning_CVPR_2019_paper.pdf)  
-  
-- Dense Relational Captioning: Triple-Stream Networks for Relationship-Based Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Dense_Relational_Captioning_Triple-Stream_Networks_for_Relationship-Based_Captioning_CVPR_2019_paper.pdf)   
-  
-- Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cornia_Show_Control_and_Tell_A_Framework_for_Generating_Controllable_and_CVPR_2019_paper.pdf)  
-  
-- Self-Critical N-step Training for Image Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_Self-Critical_N-Step_Training_for_Image_Captioning_CVPR_2019_paper.pdf)  
-  
-- Look Back and Predict Forward in Image Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qin_Look_Back_and_Predict_Forward_in_Image_Captioning_CVPR_2019_paper.pdf)  
-  
-- Intention Oriented Image Captions with Guiding Objects  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Intention_Oriented_Image_Captions_With_Guiding_Objects_CVPR_2019_paper.pdf)   
-  
-- Adversarial Semantic Alignment for Improved Image Captions  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dognin_Adversarial_Semantic_Alignment_for_Improved_Image_Captions_CVPR_2019_paper.pdf)  
-  
-- Good News, Everyone! Context driven entity-aware captioning for news images  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Biten_Good_News_Everyone_Context_Driven_Entity-Aware_Captioning_for_News_Images_CVPR_2019_paper.pdf)  [[code]](https://github.com/furkanbiten/GoodNews)  
-  
-- Pointing Novel Objects in Image Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Pointing_Novel_Objects_in_Image_Captioning_CVPR_2019_paper.pdf)   
-  
-- Engaging Image Captioning via Personality  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shuster_Engaging_Image_Captioning_via_Personality_CVPR_2019_paper.pdf)  
-  
-- Intention Oriented Image Captions With Guiding Objects  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Intention_Oriented_Image_Captions_With_Guiding_Objects_CVPR_2019_paper.pdf)  
-  
-- Exact Adversarial Attack to Image Captioning via Structured Output Learning With Latent Variables  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Exact_Adversarial_Attack_to_Image_Captioning_via_Structured_Output_Learning_CVPR_2019_paper.pdf)  
-  
-- Towards Unsupervised Image Captioning with Shared Multimodal Embeddings. [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.pdf) 
-##### Video Captioning
--  Streamlined Dense Video Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Mun_Streamlined_Dense_Video_Captioning_CVPR_2019_paper.pdf)  
-
--  Grounded Video Description  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Grounded_Video_Description_CVPR_2019_paper.pdf)  
-
--  Adversarial Inference for Multi-Sentence Video Description  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Park_Adversarial_Inference_for_Multi-Sentence_Video_Description_CVPR_2019_paper.pdf)  
-   
--  Object-aware Aggregation with Bidirectional Temporal Graph for Video Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Object-Aware_Aggregation_With_Bidirectional_Temporal_Graph_for_Video_Captioning_CVPR_2019_paper.pdf)  
-   
--  Memory-Attended Recurrent Network for Video Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pei_Memory-Attended_Recurrent_Network_for_Video_Captioning_CVPR_2019_paper.pdf)  
-   
--  Spatio-Temporal Dynamics and Semantic Attribute Enriched Visual Encoding for Video Captioning  [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Aafaq_Spatio-Temporal_Dynamics_and_Semantic_Attribute_Enriched_Visual_Encoding_for_Video_CVPR_2019_paper.pdf)  
-   
-
-#### AAAI 2019
-##### Image Captioning
-- Improving Image Captioning with Conditional Generative Adversarial Nets  [[paper]](https://arxiv.org/pdf/1805.07112.pdf)  
-  
-- Connecting Language to Images: A Progressive Attention-Guided Network for Simultaneous Image Captioning and Language Grounding  [[paper]](https://www.aaai.org/ojs/index.php/AAAI/article/view/4916)  
-  
-- Meta Learning for Image Captioning  [[paper]](https://www.aaai.org/ojs/index.php/AAAI/article/view/4883)
-- Deliberate Residual based Attention Network for Image Captioning  [[paper]](https://www.aaai.org/ojs/index.php/AAAI/article/view/4845/4718) 
-  
-- Hierarchical Attention Network for Image Captioning  [[paper]](https://www.aaai.org/ojs/index.php/AAAI/article/view/4924)  
-  
-- Learning Object Context for Dense Captioning  [[paper]](https://www.aaai.org/ojs/index.php/AAAI/article/view/4886)  
- 
-##### Video Captioning
-- Learning to Compose Topic-Aware Mixture of Experts for Zero-Shot Video Captioning  [[code]](https://github.com/eric-xw/Zero-Shot-Video-Captioning) [[paper]](https://arxiv.org/pdf/1811.02765.pdf)  
-
-- Temporal Deformable Convolutional Encoder-Decoder Networks for Video Captioning   [[paper]](https://arxiv.org/pdf/1905.01077v1.pdf)  
-
-- Fully Convolutional Video Captioning with Coarse-to-Fine and Inherited Attention  [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4839)  
-  
-- Motion Guided Spatial Attention for Video Captioning  [[paper]](http://yugangjiang.info/publication/19AAAI-vidcaptioning.pdf)  
-
-### 2018
-
-#### NIPS 2018 ####
-##### Video Captioning
-- Weakly Supervised Dense Event Captioning in Videos. [[paper]](https://papers.nips.cc/paper/2018/file/49af6c4e558a7569d80eee2e035e2bd7-Paper.pdf)  [[code]](https://github.com/XgDuan/WSDEC)
-
-
-
-#### ECCV 2018 ####
-##### Image Captioning
-- Unpaired Image Captioning by Language Pivoting. [[paper]](https://arxiv.org/pdf/1803.05526.pdf)  [[code]](https://github.com/gujiuxiang/unpaired_image_captioning)
-- Exploring Visual Relationship for Image Captioning. [[paper]](https://arxiv.org/pdf/1809.07041.pdf)  
-
-#### ACL 2018
-##### Image Captioning
-- Attacking Visual Language Grounding with Adversarial Examples: A Case Study on Neural Image Captioning. [[paper]](https://arxiv.org/pdf/1712.02051.pdf) 
-
-#### CVPR 2018 ####
-##### Image Captioning
-- Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering. [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Bottom-Up_and_Top-Down_CVPR_2018_paper.html)  [[code]](https://github.com/peteanderson80/bottom-up-attention) 
-- Neural Baby Talk. [[paper]](https://arxiv.org/pdf/1803.09845.pdf) 
-
-### 2015
-
-#### ICML 2015 ####
-##### Image Captioning
-- Show, Attend and Tell: Neural Image Caption Generation with Visual Attention. [[paper]](https://arxiv.org/pdf/1502.03044.pdf)   
-
-#### CVPR 2015 ####
-##### Image Captioning
-- Show and Tell: A Neural Image Caption Generator. [[paper]](https://arxiv.org/pdf/1411.4555.pdf)   
-
-#### ICLR 2015 ####
-##### Image Captioning
-- Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN). [[paper]](https://arxiv.org/pdf/1412.6632.pdf)   
 
 
 #### VCR
@@ -431,6 +268,6 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 - CLIP4Caption: CLIP for Video Caption. [[paper]](https://arxiv.org/pdf/2110.06615.pdf)
 - CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval. [[paper]](https://arxiv.org/pdf/2104.08860.pdf) [[code]](https://github.com/ArrowLuo/CLIP4Clip)
 ## Reference and Acknowledgement
-* [**awesome-image-captioning**](https://github.com/zhjohnchan/awesome-image-captioning) from [Zhihong Chen](https://github.com/zhjohnchan)
+* [**Awesome-Captioning**](https://github.com/terry-r123/Awesome-Captioning) 
 
 Really appreciate for there contributions in this area.
