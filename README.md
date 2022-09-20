@@ -58,10 +58,30 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 - Wukong: 100 Million Large-scale Chinese Cross-modal Pre-training Dataset and A Foundation Framework. [[paper]](https://arxiv.org/pdf/2202.06767.pdf) [[paper]](https://wukong-dataset.github.io/wukong-dataset/)
 - HighMMT: Towards Modality and Task Generalization for High-Modality Representation Learning. [[paper]](https://arxiv.org/pdf/2203.01311.pdf) [[code]](https://github.com/pliang279/HighMMT)
 - Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning. [[paper]](https://arxiv.org/pdf/2203.02053.pdf) [[code]](https://modalitygap.readthedocs.io/en/latest/)
+- Making the Most of Text Semantics to Improve Biomedical Vision--Language Processing. [[paper]](https://arxiv.org/pdf/2204.09817.pdf) 
+- iCAR: Bridging Image Classification and Image-text Alignment for Visual Recognition. [[paper]](https://arxiv.org/pdf/2204.10760.pdf)
+- Multimodal Adaptive Distillation for Leveraging Unimodal Encoders for Vision-Language Tasks. [[paper]](https://arxiv.org/pdf/2204.10496.pdf)
+- PreTraM: Self-Supervised Pre-training via Connecting Trajectory and Map. [[paper]](https://arxiv.org/pdf/2204.10435.pdf)
+- A Multi-level Alignment Training Scheme for Video-and-Language Grounding. [[paper]](https://arxiv.org/pdf/2204.10938.pdf)
+- Contrastive Language-Action Pre-training for Temporal Localization. [[paper]](https://arxiv.org/pdf/2204.12293.pdf)
+- MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval. [[paper]](https://arxiv.org/pdf/2204.12408.pdf)
+- CoCa: Contrastive Captioners are Image-Text Foundation Models. [[paper]](https://arxiv.org/pdf/2205.01917.pdf)
+- i-Code: An Integrative and Composable Multimodal Learning Framework. [[paper]](https://arxiv.org/pdf/2205.01818.pdf)
+- Language Models Can See: Plugging Visual Controls in Text Generation. [[paper]](https://arxiv.org/pdf/2205.02655.pdf) [[code]](https://github.com/yxuansu/MAGIC)
+- Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP). [[paper]](https://arxiv.org/pdf/2205.01397.pdf) [[code]](https://github.com/mlfoundations/imagenet-captions)
+- PyramidCLIP: Hierarchical Feature Alignment for Vision-language Model Pretraining. [[paper]](https://arxiv.org/pdf/2204.14095.pdf) 
+- Flamingo: a Visual Language Model for Few-Shot Learning. [[paper]](https://arxiv.org/pdf/2204.14198.pdf)  
+- Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework. [[paper]](https://arxiv.org/pdf/2205.03860.pdf)
+- One Model, Multiple Modalities: A Sparsely Activated Approach for Text, Sound, Image, Video and Code. [[paper]](https://arxiv.org/pdf/2205.06126.pdf)
+- Unsupervised Prompt Learning for Vision-Language Models. [[paper]](https://arxiv.org/pdf/2204.03649.pdf) [[code]](https://github.com/tonyhuang2022/UPL)
 #### CVPR 2022
 - Vision-Language Pre-Training with Triple Contrastive Learning. [[paper]](https://arxiv.org/pdf/2202.10401.pdf) [[code]](https://github.com/uta-smile/TCL)
 - Multi-modal Alignment using Representation Codebook. [[paper]](https://arxiv.org/pdf/2203.00048.pdf)
-- Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment. [[paper]](https://arxiv.org/pdf/2203.00242.pdf)
+- Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment. [[paper]](https://arxiv.org/pdf/2203.00242.pdf) [[code]](https://github.com/zmykevin/UVLP)
+- Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions. [[paper]](https://arxiv.org/pdf/2111.10337.pdf) [[code]](https://github.com/microsoft/XPretrain/tree/main/hd-vila-100m)
+- Towards General Purpose Vision Systems. [[paper]](https://arxiv.org/pdf/2104.00743.pdf) [[code]](https://github.com/allenai/gpv-1/)
+- Are Multimodal Transformers Robust to Missing Modality? [[paper]](https://arxiv.org/pdf/2204.05454.pdf)
+
 #### ICLR 2022
 - How Much Can CLIP Benefit Vision-and-Language Tasks? [[paper]](https://arxiv.org/pdf/2107.06383.pdf) [[code]](https://github.com/clip-vil/CLIP-ViL)
 - Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image Pre-training Paradigm. [[paper]](https://arxiv.org/pdf/2110.05208.pdf) [[code]](https://github.com/Sense-GVT/)
@@ -83,11 +103,13 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 #### NIPS 2021
 - Multimodal Few-Shot Learning with Frozen Language Models. [[paper]](https://arxiv.org/pdf/2106.13884.pdf) [[code]](https://fh295.github.io/frozen.html)
 - VidLanKD: Improving Language Understanding via Video-Distilled Knowledge Transfer. [[paper]](https://arxiv.org/pdf/2107.02681.pdf) [[code]](https://github.com/zinengtang/VidLanKD)
+- TriBERT: Full-body Human-centric Audio-visual Representation Learning for Visual Sound Separation. [[paper]](https://arxiv.org/pdf/2110.13412.pdf) [[code]](https://github.com/ubc-vision/tribert)
 #### EMNLP 2021
 - Data Efficient Masked Language Modeling for Vision and Language. [[paper]](https://arxiv.org/pdf/2109.02040.pdf) (Findings)
 - Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers. [[paper]](https://arxiv.org/pdf/2109.04448.pdf)
 #### ICCV 2021
 - LocTex: Learning Data-Efficient Visual Representations from Localized Textual Supervision. [[paper]](https://arxiv.org/pdf/2108.11950.pdf)
+- UniT: Multimodal Multitask Learning with a Unified Transformer. [[paper]](https://arxiv.org/pdf/2102.10772.pdf) [[code]](https://mmf.sh/)
 #### ACMMM 2021
 - ROSITA: Enhancing Vision-and-Language Semantic Alignments via Cross- and Intra-modal Knowledge Integration. [[paper]](https://arxiv.org/pdf/2108.07073.pdf)
 - Product-oriented Machine Translation with Cross-modal Cross-lingual Pre-training. [[paper]](https://arxiv.org/pdf/2108.11119.pdf) [[code]](https://github.com/syuqings/Fashion-MMT)
@@ -109,7 +131,6 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 - TCIC: Theme Concepts Learning Cross Language and Vision for Image Captioning. [[paper]](https://arxiv.org/pdf/2106.10936.pdf)   
 - UIBert: Learning Generic Multimodal Representations for UI Understanding. [[paper]](https://arxiv.org/pdf/2107.13731.pdf)
 #### NAACL 2021
-##### Image Captioning
 - LightningDOT: Pre-training Visual-Semantic Embeddings for Real-Time Image-Text Retrieval. [[paper]](https://www.aclweb.org/anthology/2021.naacl-main.77.pdf)   
 - Unsupervised Vision-and-Language Pre-training Without Parallel Images and Captions. [[paper]](https://www.aclweb.org/anthology/2021.naacl-main.420.pdf)
 - Cross-lingual Cross-modal Pretraining for Multimodal Retrieval. [[paper]](https://www.aclweb.org/anthology/2021.naacl-main.285.pdf)
@@ -194,25 +215,8 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 [comment]: <> (- [Video Captioning With Temporal And Region Graph Convolution Network]&#40;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9102967&#41; - Xinlong Xiao et al, **ICME 2020**. )
 
 #### CVPR 2020
-##### Image Captioning
-- Context-Aware Group Captioning via Self-Attention and Contrastive Features. [[paper]](https://arxiv.org/abs/2004.03708)  [[code]](https://lizw14.github.io/project/groupcap)
-- Show, Edit and Tell: A Framework for Editing Image Captions. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sammani_Show_Edit_and_Tell_A_Framework_for_Editing_Image_Captions_CVPR_2020_paper.pdf)  [[code]](https://github.com/fawazsammani/show-edit-tell)
-- Say As You Wish: Fine-Grained Control of Image Caption Generation With Abstract Scene Graphs. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Say_As_You_Wish_Fine-Grained_Control_of_Image_Caption_Generation_CVPR_2020_paper.pdf)  [[code]](https://github.com/cshizhe/asg2cap)
-- Normalized and Geometry-Aware Self-Attention Network for Image Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Normalized_and_Geometry-Aware_Self-Attention_Network_for_Image_Captioning_CVPR_2020_paper.pdf) 
-- Meshed-Memory Transformer for Image Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cornia_Meshed-Memory_Transformer_for_Image_Captioning_CVPR_2020_paper.pdf)  [[code]](https://github.com/aimagelab/meshed-memory-transformer)
-- X-Linear Attention Networks for Image Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_X-Linear_Attention_Networks_for_Image_Captioning_CVPR_2020_paper.pdf)  [[code]](https://github.com/JDAI-CV/image-captioning)
-- Transform and Tell: Entity-Aware News Image Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper.pdf)  [[code]](https://github.com/alasdairtran/transform-and-tell)
-- More Grounded Image Captioning by Distilling Image-Text Matching Model. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_More_Grounded_Image_Captioning_by_Distilling_Image-Text_Matching_Model_CVPR_2020_paper.pdf)  [[code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
-- Better Captioning With Sequence-Level Exploration. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Better_Captioning_With_Sequence-Level_Exploration_CVPR_2020_paper.html) 
-
-[comment]: <> (- Alleviating Noisy Data in Image Captioning with Cooperative Distillation. [[paper]]&#40;https://arxiv.org/pdf/2012.11691.pdf&#41; -  Pierre Dognin et al, **CVPRW 2020**. )
-
-##### Video Captioning
-- Object Relational Graph With Teacher-Recommended Learning for Video Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Object_Relational_Graph_With_Teacher-Recommended_Learning_for_Video_Captioning_CVPR_2020_paper.pdf) 
-- Spatio-Temporal Graph for Video Captioning With Knowledge Distillation. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Spatio-Temporal_Graph_for_Video_Captioning_With_Knowledge_Distillation_CVPR_2020_paper.pdf)  [[code]](https://github.com/StanfordVL/STGraph)
-- Better Captioning With Sequence-Level Exploration. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Better_Captioning_With_Sequence-Level_Exploration_CVPR_2020_paper.html)  
-- Syntax-Aware Action Targeting for Video Captioning. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Zheng_Syntax-Aware_Action_Targeting_for_Video_Captioning_CVPR_2020_paper.html)  [[code]](https://github.com/SydCaption/SAAT)   
-- Screencast Tutorial Video Understanding. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Screencast_Tutorial_Video_Understanding_CVPR_2020_paper.pdf)  
+- 12-in-1: Multi-Task Vision and Language Representation Learning. [[paper]](https://arxiv.org/pdf/1912.02315.pdf) [[code]](https://github.com/facebookresearch/vilbert-multi-task)
+- Visual commonsense r-cnn. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Visual_Commonsense_R-CNN_CVPR_2020_paper.pdf) [[code]](https://github.com/Wangt-CN/VC-R-CNN)
 #### arxiv 2020
 ##### Single-Stream
 - ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervised Image-Text Data. [[paper]](https://arxiv.org/pdf/2001.07966.pdf) 
@@ -243,6 +247,9 @@ and Language. [[paper]](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.8562-6/271974
 
   
 
+#### VQA
+#### arxiv 2022
+- Answer-Me: Multi-Task Open-Vocabulary Visual Question Answering. [[paper]](https://arxiv.org/pdf/2205.00949.pdf)
 
 
 #### VCR
